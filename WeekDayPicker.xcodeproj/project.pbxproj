@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12F9A91421002F620008CC6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A91321002F620008CC6C /* AppDelegate.m */; };
+		12F9A91721002F620008CC6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A91621002F620008CC6C /* ViewController.m */; };
+		12F9A91A21002F620008CC6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F9A91821002F620008CC6C /* Main.storyboard */; };
+		12F9A91C21002F640008CC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F9A91B21002F640008CC6C /* Assets.xcassets */; };
+		12F9A91F21002F640008CC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F9A91D21002F640008CC6C /* LaunchScreen.storyboard */; };
+		12F9A92221002F640008CC6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A92121002F640008CC6C /* main.m */; };
+		12F9A92A2100301C0008CC6C /* DayInWeekPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A9292100301C0008CC6C /* DayInWeekPicker.m */; };
+		12F9A92C210030550008CC6C /* DayInWeekPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12F9A92B210030550008CC6C /* DayInWeekPicker.xib */; };
+		12F9A93E210031650008CC6C /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 12F9A92E210031650008CC6C /* DateTools.bundle */; };
+		12F9A93F210031650008CC6C /* DTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A931210031650008CC6C /* DTConstants.m */; };
+		12F9A940210031650008CC6C /* DTError.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A933210031650008CC6C /* DTError.m */; };
+		12F9A941210031650008CC6C /* DTTimePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A935210031650008CC6C /* DTTimePeriod.m */; };
+		12F9A942210031650008CC6C /* DTTimePeriodChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A937210031650008CC6C /* DTTimePeriodChain.m */; };
+		12F9A943210031650008CC6C /* DTTimePeriodCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A939210031650008CC6C /* DTTimePeriodCollection.m */; };
+		12F9A944210031650008CC6C /* DTTimePeriodGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A93B210031650008CC6C /* DTTimePeriodGroup.m */; };
+		12F9A945210031650008CC6C /* NSDate+DateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A93D210031650008CC6C /* NSDate+DateTools.m */; };
+		12F9A948210040970008CC6C /* func.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A947210040970008CC6C /* func.m */; };
+		12F9A94B21005BAE0008CC6C /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A94921005BAD0008CC6C /* UIImage+Color.m */; };
+		12F9A94E21005CB40008CC6C /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A94D21005CB30008CC6C /* UIColor+Hex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12F9A90F21002F620008CC6C /* WeekDayPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeekDayPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F9A91221002F620008CC6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12F9A91321002F620008CC6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12F9A91521002F620008CC6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12F9A91621002F620008CC6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12F9A91921002F620008CC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12F9A91B21002F640008CC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12F9A91E21002F640008CC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12F9A92021002F640008CC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12F9A92121002F640008CC6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12F9A9282100301C0008CC6C /* DayInWeekPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DayInWeekPicker.h; sourceTree = "<group>"; };
+		12F9A9292100301C0008CC6C /* DayInWeekPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayInWeekPicker.m; sourceTree = "<group>"; };
+		12F9A92B210030550008CC6C /* DayInWeekPicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayInWeekPicker.xib; sourceTree = "<group>"; };
+		12F9A92E210031650008CC6C /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DateTools.bundle; sourceTree = "<group>"; };
+		12F9A92F210031650008CC6C /* DateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTools.h; sourceTree = "<group>"; };
+		12F9A930210031650008CC6C /* DTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTConstants.h; sourceTree = "<group>"; };
+		12F9A931210031650008CC6C /* DTConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTConstants.m; sourceTree = "<group>"; };
+		12F9A932210031650008CC6C /* DTError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTError.h; sourceTree = "<group>"; };
+		12F9A933210031650008CC6C /* DTError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTError.m; sourceTree = "<group>"; };
+		12F9A934210031650008CC6C /* DTTimePeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTimePeriod.h; sourceTree = "<group>"; };
+		12F9A935210031650008CC6C /* DTTimePeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTimePeriod.m; sourceTree = "<group>"; };
+		12F9A936210031650008CC6C /* DTTimePeriodChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTimePeriodChain.h; sourceTree = "<group>"; };
+		12F9A937210031650008CC6C /* DTTimePeriodChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTimePeriodChain.m; sourceTree = "<group>"; };
+		12F9A938210031650008CC6C /* DTTimePeriodCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTimePeriodCollection.h; sourceTree = "<group>"; };
+		12F9A939210031650008CC6C /* DTTimePeriodCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTimePeriodCollection.m; sourceTree = "<group>"; };
+		12F9A93A210031650008CC6C /* DTTimePeriodGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTimePeriodGroup.h; sourceTree = "<group>"; };
+		12F9A93B210031650008CC6C /* DTTimePeriodGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTimePeriodGroup.m; sourceTree = "<group>"; };
+		12F9A93C210031650008CC6C /* NSDate+DateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateTools.h"; sourceTree = "<group>"; };
+		12F9A93D210031650008CC6C /* NSDate+DateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateTools.m"; sourceTree = "<group>"; };
+		12F9A946210040970008CC6C /* func.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = func.h; sourceTree = "<group>"; };
+		12F9A947210040970008CC6C /* func.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = func.m; sourceTree = "<group>"; };
+		12F9A94921005BAD0008CC6C /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		12F9A94A21005BAD0008CC6C /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		12F9A94C21005CB30008CC6C /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		12F9A94D21005CB30008CC6C /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		12F9A94F21005CD80008CC6C /* colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = colors.h; sourceTree = "<group>"; };
+		12F9A950210061960008CC6C /* dimensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dimensions.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12F9A90C21002F620008CC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12F9A90621002F620008CC6C = {
+			isa = PBXGroup;
+			children = (
+				12F9A91121002F620008CC6C /* WeekDayPicker */,
+				12F9A91021002F620008CC6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12F9A91021002F620008CC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12F9A90F21002F620008CC6C /* WeekDayPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12F9A91121002F620008CC6C /* WeekDayPicker */ = {
+			isa = PBXGroup;
+			children = (
+				12F9A92D210031650008CC6C /* DateTools */,
+				12F9A91221002F620008CC6C /* AppDelegate.h */,
+				12F9A91321002F620008CC6C /* AppDelegate.m */,
+				12F9A91521002F620008CC6C /* ViewController.h */,
+				12F9A91621002F620008CC6C /* ViewController.m */,
+				12F9A91821002F620008CC6C /* Main.storyboard */,
+				12F9A91B21002F640008CC6C /* Assets.xcassets */,
+				12F9A91D21002F640008CC6C /* LaunchScreen.storyboard */,
+				12F9A92021002F640008CC6C /* Info.plist */,
+				12F9A92121002F640008CC6C /* main.m */,
+				12F9A94C21005CB30008CC6C /* UIColor+Hex.h */,
+				12F9A94D21005CB30008CC6C /* UIColor+Hex.m */,
+				12F9A94A21005BAD0008CC6C /* UIImage+Color.h */,
+				12F9A94921005BAD0008CC6C /* UIImage+Color.m */,
+				12F9A950210061960008CC6C /* dimensions.h */,
+				12F9A946210040970008CC6C /* func.h */,
+				12F9A947210040970008CC6C /* func.m */,
+				12F9A94F21005CD80008CC6C /* colors.h */,
+				12F9A92B210030550008CC6C /* DayInWeekPicker.xib */,
+				12F9A9282100301C0008CC6C /* DayInWeekPicker.h */,
+				12F9A9292100301C0008CC6C /* DayInWeekPicker.m */,
+			);
+			path = WeekDayPicker;
+			sourceTree = "<group>";
+		};
+		12F9A92D210031650008CC6C /* DateTools */ = {
+			isa = PBXGroup;
+			children = (
+				12F9A92E210031650008CC6C /* DateTools.bundle */,
+				12F9A92F210031650008CC6C /* DateTools.h */,
+				12F9A930210031650008CC6C /* DTConstants.h */,
+				12F9A931210031650008CC6C /* DTConstants.m */,
+				12F9A932210031650008CC6C /* DTError.h */,
+				12F9A933210031650008CC6C /* DTError.m */,
+				12F9A934210031650008CC6C /* DTTimePeriod.h */,
+				12F9A935210031650008CC6C /* DTTimePeriod.m */,
+				12F9A936210031650008CC6C /* DTTimePeriodChain.h */,
+				12F9A937210031650008CC6C /* DTTimePeriodChain.m */,
+				12F9A938210031650008CC6C /* DTTimePeriodCollection.h */,
+				12F9A939210031650008CC6C /* DTTimePeriodCollection.m */,
+				12F9A93A210031650008CC6C /* DTTimePeriodGroup.h */,
+				12F9A93B210031650008CC6C /* DTTimePeriodGroup.m */,
+				12F9A93C210031650008CC6C /* NSDate+DateTools.h */,
+				12F9A93D210031650008CC6C /* NSDate+DateTools.m */,
+			);
+			path = DateTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12F9A90E21002F620008CC6C /* WeekDayPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12F9A92521002F640008CC6C /* Build configuration list for PBXNativeTarget "WeekDayPicker" */;
+			buildPhases = (
+				12F9A90B21002F620008CC6C /* Sources */,
+				12F9A90C21002F620008CC6C /* Frameworks */,
+				12F9A90D21002F620008CC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeekDayPicker;
+			productName = WeekDayPicker;
+			productReference = 12F9A90F21002F620008CC6C /* WeekDayPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12F9A90721002F620008CC6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = yhy;
+				TargetAttributes = {
+					12F9A90E21002F620008CC6C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 12F9A90A21002F620008CC6C /* Build configuration list for PBXProject "WeekDayPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12F9A90621002F620008CC6C;
+			productRefGroup = 12F9A91021002F620008CC6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12F9A90E21002F620008CC6C /* WeekDayPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12F9A90D21002F620008CC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F9A91F21002F640008CC6C /* LaunchScreen.storyboard in Resources */,
+				12F9A91C21002F640008CC6C /* Assets.xcassets in Resources */,
+				12F9A91A21002F620008CC6C /* Main.storyboard in Resources */,
+				12F9A92C210030550008CC6C /* DayInWeekPicker.xib in Resources */,
+				12F9A93E210031650008CC6C /* DateTools.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12F9A90B21002F620008CC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F9A940210031650008CC6C /* DTError.m in Sources */,
+				12F9A944210031650008CC6C /* DTTimePeriodGroup.m in Sources */,
+				12F9A93F210031650008CC6C /* DTConstants.m in Sources */,
+				12F9A91721002F620008CC6C /* ViewController.m in Sources */,
+				12F9A945210031650008CC6C /* NSDate+DateTools.m in Sources */,
+				12F9A948210040970008CC6C /* func.m in Sources */,
+				12F9A942210031650008CC6C /* DTTimePeriodChain.m in Sources */,
+				12F9A941210031650008CC6C /* DTTimePeriod.m in Sources */,
+				12F9A92221002F640008CC6C /* main.m in Sources */,
+				12F9A91421002F620008CC6C /* AppDelegate.m in Sources */,
+				12F9A943210031650008CC6C /* DTTimePeriodCollection.m in Sources */,
+				12F9A94E21005CB40008CC6C /* UIColor+Hex.m in Sources */,
+				12F9A92A2100301C0008CC6C /* DayInWeekPicker.m in Sources */,
+				12F9A94B21005BAE0008CC6C /* UIImage+Color.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12F9A91821002F620008CC6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12F9A91921002F620008CC6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12F9A91D21002F640008CC6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12F9A91E21002F640008CC6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12F9A92321002F640008CC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12F9A92421002F640008CC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12F9A92621002F640008CC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UJ7X87G9E;
+				INFOPLIST_FILE = WeekDayPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mapout.WeekDayPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12F9A92721002F640008CC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UJ7X87G9E;
+				INFOPLIST_FILE = WeekDayPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mapout.WeekDayPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12F9A90A21002F620008CC6C /* Build configuration list for PBXProject "WeekDayPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12F9A92321002F640008CC6C /* Debug */,
+				12F9A92421002F640008CC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12F9A92521002F640008CC6C /* Build configuration list for PBXNativeTarget "WeekDayPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12F9A92621002F640008CC6C /* Debug */,
+				12F9A92721002F640008CC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12F9A90721002F620008CC6C /* Project object */;
+}
